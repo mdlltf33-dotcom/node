@@ -1,0 +1,20 @@
+{
+  "name": "nodee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+"scripts": {
+  "start": "node app.js",
+  "dev": "nodemon --ext js,css,html app.js"
+},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "livereload": "^0.10.3",
+    "mongoose": "^8.18.3",
+    "nodemon": "^3.1.10"
+  }
+}
