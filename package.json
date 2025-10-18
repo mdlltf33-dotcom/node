@@ -3,17 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-"scripts": {
-  "start": "node app.js",
-  "dev": "nodemon --ext js,css,html app.js"
-},
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --ext js,css,html app.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "connect-livereload": "^0.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
     "livereload": "^0.10.3",
+    "method-override": "^3.0.0",
+    "moment": "^2.30.1",
     "mongoose": "^8.18.3",
     "nodemon": "^3.1.10"
   }
